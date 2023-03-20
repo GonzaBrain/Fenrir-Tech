@@ -1,12 +1,11 @@
 import React from 'react'
-import ItemList from './ItemList'
+import ItemDetail from './ItemDetail'
 import productos from './productos.json'
 import { useParams } from 'react-router-dom'
 
+const ItemDetailContainer = () => {
 
-const ItemListContainer = () => {
-
-  const {categoria}  = useParams();
+  const {id} = useParams()
 
   const getProductos = () => {
     return new Promise ((resolve, reject) => {
@@ -29,20 +28,14 @@ const ItemListContainer = () => {
 
   fetchingProductos();
 
-  const productosFiltrados = productos.filter((producto) => (producto.categoria.toLowerCase()) === categoria)
-  
-  let productosARenderizar = [];
-  if(categoria) {
-    productosARenderizar = productosFiltrados
-  } else {
-    productosARenderizar = productos
-  }
+
+  let productoARenderizar = productos.find((producto) => producto.id === id)
 
   return (
     <div>
-      <ItemList productos={productosARenderizar}/>
+      <ItemDetail producto={productoARenderizar}/>
     </div>
   )
 }
 
-export default ItemListContainer
+export default ItemDetailContainer

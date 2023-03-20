@@ -1,68 +1,34 @@
-import React from 'react';
-import CartWidget from './CartWidget'; 
-import { Button, MenuButton, MenuItem, Menu, MenuList, Flex, Spacer, Box} from '@chakra-ui/react';
+import React from 'react'
+import CartWidget from './CartWidget'
+import { Flex, Spacer, Box, Menu, MenuButton, MenuList, MenuItem, } from '@chakra-ui/react'
+import { Link } from 'react-router-dom'
+
+import Brand from './Brand'
 
 const NavBar = () => {
-  return (
-    <div>
-      {/*
-      
-      */}
-  
-  
-  
-  <Flex>
-  <Box p='3'>
-  <h3>Fenrir-Tech</h3>
-  </Box>
-
-  <Spacer />
-
-    <Box p='5'>
-      <Menu>
-  <MenuButton as={Button}>Categorias</MenuButton>
-  <MenuList>
-    <MenuItem>Componentes</MenuItem>
-    <MenuItem>Perifericos</MenuItem>
-    <MenuItem>Monitores</MenuItem>
-  </MenuList> 
-</Menu>
-    </Box>
-
-  <Spacer />
-  <Box p='3'>
-  <CartWidget/>
-  </Box>
-</Flex>
-  
-  
-  
-  
-  
-  
-  </div> 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- )
+    return (
+        <div className='header'>
+            <Flex>
+                <Box p='4'>
+                    <Link to={'/'}><Brand/></Link>
+                </Box>
+                <Menu>
+                    <MenuButton className='btn'>
+                    Tienda
+                    </MenuButton>
+                    <MenuList>
+                        <Link to ={`/`}><MenuItem>Productos</MenuItem> </Link>
+                        <Link to={`/categoria/perifericos`}><MenuItem>Perifericos</MenuItem></Link>
+                        <Link to={`/categoria/componentes`}><MenuItem>Componentes</MenuItem></Link>
+                    </MenuList>
+                </Menu>
+                <Spacer />
+                <Box p='4' className='cartWidget'>
+                    <Link to={'/Cart'}><CartWidget/></Link>
+                </Box>
+            </Flex>
+        </div>
+    )
 }
 
 export default NavBar

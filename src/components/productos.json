@@ -1,0 +1,86 @@
+[
+    {
+        "nombre" : "Webcam Logitech C922 Pro Stream Usb Amr",
+        "categoria" : "Perifericos",
+        "id" : "01",
+        "marca" : "Logitech",
+        "stock" : 4,
+        "imagen" : "https://resource.logitech.com/w_800,c_lpad,ar_16:9,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/webcams/c922/gallery/c922-gallery-1.png?v=1",
+        "precio" : 36500,
+        "descripcion" : "OPTIMIZADA PARA STREAMING Y GRABACIÓN Conexión extremadamente nítida en directo para canales como Twitch y YouTube. Haz streaming de lo que quieras y elige entre 1080p o fluidez HD de 720p a 60 fps. Difunde tu juego en Full HD con combinación de fondo integrada (mediante tecnología Personify), fiable audio sin interrupciones, enfoque automático y un campo de visión de 78 grados."
+    },
+    {
+        "nombre" : "Disco Solido SSD 1TB Patriot M2 2280 NVME VPR100 RGB",
+        "categoria" : "Componentes",
+        "id" : "02",
+        "marca" : "Patrot",
+        "stock" : 10,
+        "imagen" : "https://www.venex.com.ar/products_images/1607178515_nb_discossdpatriotvpr100512gbrgbm22280pcie_ver_b30d400f38ec1e7347484cbd70b8cc9c.jpg",
+        "precio" : 25000,
+        "descripcion" : "Patriot Viper Gaming se complace en presentar la primera sincronización de aplicaciones RGB del mundo, SSD M.2 PCIe Gen3 x4 de alto rendimiento, VPR100. Diseñado con un resistente protector térmico externo y el sólido controlador E12 de Phison, le da al VPR100 la tecnología de vanguardia para alcanzar la velocidad del rayo. 5 veces más rápido que los SSD SATA, VPR100 es la próxima edición de SSD RGB para jugadores, entusiastas de la tecnología, creadores de contenido, modeladores 3D y profesionales de renderizado de video que buscan tiempos de inicio increíblemente rápidos y acceso instantáneo a sus datos para una mejor productividad. Mejore su juego y clasifique sus partidas competitivas con un estilo sorprendente con el SSD PCIe impresionantemente confiable, de bajo perfil y fácil de instalar del VPR100"
+    },
+    {
+        "nombre" : "Logitech G Pro X Superlight",
+        "categoria" : "Perifericos",
+        "id": "03",
+        "marca" : "Logitech",
+        "stock" : 3,
+        "imagen" : "https://m.media-amazon.com/images/I/71XdMBEmGGL._AC_SL1500_.jpg",
+        "precio" : 47000,
+        "descripcion" : "Elimina todos los obstáculos para ganar con nuestro mouse inalámbrico PRO más ligero y rápido. El nuevo favorito de los mejores profesionales de esports pesa menos de 63 gramos y se desliza sin apenas fricción. PRO X SUPERLIGHT hace gala de nuestra tecnología de diseño ZERØ OPOSICIÓN, nuestro propósito de eliminar obstáculos y crear una conexión lo más pura posible entre el jugador y el juego."
+    },
+    {
+        "nombre" : "Corsair ICUE 4000x",
+        "categoria" : "Componentes",
+        "id" : "04",
+        "marca" : "Corsair",
+        "stock" : 7,
+        "imagen" : "https://s3-sa-east-1.amazonaws.com/saasargentina/FDdQQhR62cfbxYqsGyaH/imagen",
+        "precio" : 50900,
+        "descripcion" : "El CORSAIR 4000X RGB es un chasis ATX semitorre distintivo, con cristal templado personalizable, con una sencilla gestión del cableado y una refrigeración excepcional gracias a los tres ventiladores CORSAIR AirGuide RGB incluidos."
+    },
+
+    {
+        "nombre" : "Fuente Cooler Master 750W v2 80+ Gold Full Modular",
+        "categoria" : "Componentes",
+        "id" : "05",
+        "marca" : "Cooler Master",
+        "stock" : 9,
+        "imagen" : "https://www.venex.com.ar/products_images/1641994276_mpe-7501-afaag-w0-6.jpg",
+        "precio" : 58500,
+        "descripcion" : "Contempla el MWE Gold totalmente modular con calificación 80 Plus Gold. Esta unidad de fuente de alimentación ofrece una eficiencia constante del 90%, bajas temperaturas y un funcionamiento silencioso"
+    },
+
+    {
+        "nombre" : "Teclado Redragon Horus k619 RGB Red Switch",
+        "categoria" : "Perifericos",
+        "id" : "06",
+        "marca" : "Redragon",
+        "stock" : 15,
+        "imagen" : "https://www.venex.com.ar/products_images/1667304010_k619-rgb-3.png",
+        "precio" : 55100,
+        "descripcion" : "ransmision por cable sin preocupaciones: un cable solido de usb-a a usb-c le garantiza los registros de claves mas estables desde cualquier trabajo diario preciso o caso de juego intenso. bloquea cualquier posible interferencia de señal y elimina la preocupacion psicologica del retraso inalambrico"
+    },
+
+    {
+        "nombre" : "Microfono HyperX Quadcast S pc ps4",
+        "categoria" : "Perifericos",
+        "id" : "07",
+        "marca" : "HyperX",
+        "stock" : 6,
+        "imagen" : "https://www.venex.com.ar/products_images/1604518019_hxproductquadcasts1zmlg.jpg",
+        "precio" : 50900,
+        "descripcion" : "El HyperX QuadCast™ es el micrófono independiente todo incluido ideal para el aspirante a streamer o podcaster que busca un micrófono de condensador con sonido de calidad. QuadCast viene con su propio soporte antivibraciones para ayudar a reducir los ruidos de la vida diaria y un filtro pop incorporado para amortiguar los molestos sonidos explosivos. Podrás conocer al instante el estado del micrófono gracias al indicador LED y silenciar con un sencillo toque para evitar problemas de retransmisión inesperados. Con cuatro patrones polares seleccionables, este micrófono está preparado para casi cualquier situación de grabación y también cuenta con un dial de control de ganancia convenientemente ubicado para ajustar rápidamente la sensibilidad de entrada de tu micrófono. El adaptador de montaje incluido se ajusta a roscas de 3/8 ”y 5/8” y es compatible con la mayoría de los soportes. El modelo QuadCast S proporciona iluminación RGB y efectos dinámicos que se pueden personalizar a través del software HyperX NGENUITY"
+    },
+
+    {
+        "nombre" : "Water Cooler Coolermaster ML240L V2 RGB",
+        "categoria" : "Componentes",
+        "id" : "08",
+        "marca" : "Cooler Master",
+        "stock" : 12,
+        "imagen" : "https://fullh4rd.com.ar/img/productos/Pics_Prod/watercooler-coolermaster-masterliquid-ml240l-v2-argb-0.jpg",
+        "precio" : 52000,
+        "descripcion" : "Nuevo diseño de bomba con componentes internos mejorados para una mayor resistencia al desgaste y un rendimiento más duradero. EPDM de grado industrial especialmente formulado utilizado para sellado reforzado para la prevención de fugas."
+    }
+]
